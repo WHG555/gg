@@ -1,2 +1,2 @@
 # gg
-聊天室
+sudo apt-get install libedit-dev 来安装 editline 
