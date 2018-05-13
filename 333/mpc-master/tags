@@ -1,0 +1,562 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AQUA	tests/ptest.c	/^  AQUA    = 3,$/;"	e	enum:__anon34	file:
+BLACK	tests/ptest.c	/^  BLACK   = 0,$/;"	e	enum:__anon34	file:
+BLUE	tests/ptest.c	/^  BLUE    = 1,$/;"	e	enum:__anon34	file:
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = $(STND) -pedantic -O3 -g -Wall -Werror -Wextra -Wformat=2 -Wshadow \\$/;"	m
+DEFAULT	tests/ptest.c	/^  DEFAULT      = 16$/;"	e	enum:__anon34	file:
+EXAMPLES	Makefile	/^EXAMPLES = $(wildcard examples\/*.c)$/;"	m
+EXAMPLESEXE	Makefile	/^EXAMPLESEXE = $(EXAMPLES:.c=)$/;"	m
+GRAY	tests/ptest.c	/^  GRAY    = 8,$/;"	e	enum:__anon34	file:
+GREEN	tests/ptest.c	/^  GREEN   = 2,$/;"	e	enum:__anon34	file:
+LIGHT_AQUA	tests/ptest.c	/^  LIGHT_AQUA   = 11,$/;"	e	enum:__anon34	file:
+LIGHT_BLUE	tests/ptest.c	/^  LIGHT_BLUE   = 9,$/;"	e	enum:__anon34	file:
+LIGHT_GREEN	tests/ptest.c	/^  LIGHT_GREEN  = 10,$/;"	e	enum:__anon34	file:
+LIGHT_PURPLE	tests/ptest.c	/^  LIGHT_PURPLE = 13,$/;"	e	enum:__anon34	file:
+LIGHT_RED	tests/ptest.c	/^  LIGHT_RED    = 12,$/;"	e	enum:__anon34	file:
+LIGHT_WHITE	tests/ptest.c	/^  LIGHT_WHITE  = 15,$/;"	e	enum:__anon34	file:
+LIGHT_YELLOW	tests/ptest.c	/^  LIGHT_YELLOW = 14,$/;"	e	enum:__anon34	file:
+MAX_ERROR	tests/ptest.c	/^  MAX_ERROR = 2048$/;"	e	enum:__anon32	file:
+MAX_NAME	tests/ptest.c	/^  MAX_NAME = 512$/;"	e	enum:__anon31	file:
+MAX_TESTS	tests/ptest.c	/^  MAX_TESTS = 2048$/;"	e	enum:__anon33	file:
+MPCA_LANG_DEFAULT	mpc.h	/^  MPCA_LANG_DEFAULT              = 0,$/;"	e	enum:__anon30
+MPCA_LANG_PREDICTIVE	mpc.h	/^  MPCA_LANG_PREDICTIVE           = 1,$/;"	e	enum:__anon30
+MPCA_LANG_WHITESPACE_SENSITIVE	mpc.h	/^  MPCA_LANG_WHITESPACE_SENSITIVE = 2$/;"	e	enum:__anon30
+MPC_FAILURE	mpc.c	1004;"	d	file:
+MPC_FAILURE	mpc.c	1232;"	d	file:
+MPC_INPUT_FILE	mpc.c	/^  MPC_INPUT_FILE   = 1,$/;"	e	enum:__anon1	file:
+MPC_INPUT_MARKS_MIN	mpc.c	/^  MPC_INPUT_MARKS_MIN = 32$/;"	e	enum:__anon2	file:
+MPC_INPUT_MEM_NUM	mpc.c	/^  MPC_INPUT_MEM_NUM = 512$/;"	e	enum:__anon3	file:
+MPC_INPUT_PIPE	mpc.c	/^  MPC_INPUT_PIPE   = 2$/;"	e	enum:__anon1	file:
+MPC_INPUT_STRING	mpc.c	/^  MPC_INPUT_STRING = 0,$/;"	e	enum:__anon1	file:
+MPC_PARSE_STACK_MIN	mpc.c	/^  MPC_PARSE_STACK_MIN = 4$/;"	e	enum:__anon23	file:
+MPC_PRIMITIVE	mpc.c	1005;"	d	file:
+MPC_PRIMITIVE	mpc.c	1233;"	d	file:
+MPC_SUCCESS	mpc.c	1003;"	d	file:
+MPC_SUCCESS	mpc.c	1231;"	d	file:
+MPC_TYPE_ANCHOR	mpc.c	/^  MPC_TYPE_ANCHOR    = 6,$/;"	e	enum:__anon6	file:
+MPC_TYPE_AND	mpc.c	/^  MPC_TYPE_AND       = 24$/;"	e	enum:__anon6	file:
+MPC_TYPE_ANY	mpc.c	/^  MPC_TYPE_ANY       = 8,$/;"	e	enum:__anon6	file:
+MPC_TYPE_APPLY	mpc.c	/^  MPC_TYPE_APPLY     = 15,$/;"	e	enum:__anon6	file:
+MPC_TYPE_APPLY_TO	mpc.c	/^  MPC_TYPE_APPLY_TO  = 16,$/;"	e	enum:__anon6	file:
+MPC_TYPE_COUNT	mpc.c	/^  MPC_TYPE_COUNT     = 22,$/;"	e	enum:__anon6	file:
+MPC_TYPE_EXPECT	mpc.c	/^  MPC_TYPE_EXPECT    = 5,$/;"	e	enum:__anon6	file:
+MPC_TYPE_FAIL	mpc.c	/^  MPC_TYPE_FAIL      = 2,$/;"	e	enum:__anon6	file:
+MPC_TYPE_LIFT	mpc.c	/^  MPC_TYPE_LIFT      = 3,$/;"	e	enum:__anon6	file:
+MPC_TYPE_LIFT_VAL	mpc.c	/^  MPC_TYPE_LIFT_VAL  = 4,$/;"	e	enum:__anon6	file:
+MPC_TYPE_MANY	mpc.c	/^  MPC_TYPE_MANY      = 20,$/;"	e	enum:__anon6	file:
+MPC_TYPE_MANY1	mpc.c	/^  MPC_TYPE_MANY1     = 21,$/;"	e	enum:__anon6	file:
+MPC_TYPE_MAYBE	mpc.c	/^  MPC_TYPE_MAYBE     = 19,$/;"	e	enum:__anon6	file:
+MPC_TYPE_NONEOF	mpc.c	/^  MPC_TYPE_NONEOF    = 11,$/;"	e	enum:__anon6	file:
+MPC_TYPE_NOT	mpc.c	/^  MPC_TYPE_NOT       = 18,$/;"	e	enum:__anon6	file:
+MPC_TYPE_ONEOF	mpc.c	/^  MPC_TYPE_ONEOF     = 10,$/;"	e	enum:__anon6	file:
+MPC_TYPE_OR	mpc.c	/^  MPC_TYPE_OR        = 23,$/;"	e	enum:__anon6	file:
+MPC_TYPE_PASS	mpc.c	/^  MPC_TYPE_PASS      = 1,$/;"	e	enum:__anon6	file:
+MPC_TYPE_PREDICT	mpc.c	/^  MPC_TYPE_PREDICT   = 17,$/;"	e	enum:__anon6	file:
+MPC_TYPE_RANGE	mpc.c	/^  MPC_TYPE_RANGE     = 12,$/;"	e	enum:__anon6	file:
+MPC_TYPE_SATISFY	mpc.c	/^  MPC_TYPE_SATISFY   = 13,$/;"	e	enum:__anon6	file:
+MPC_TYPE_SINGLE	mpc.c	/^  MPC_TYPE_SINGLE    = 9,$/;"	e	enum:__anon6	file:
+MPC_TYPE_STATE	mpc.c	/^  MPC_TYPE_STATE     = 7,$/;"	e	enum:__anon6	file:
+MPC_TYPE_STRING	mpc.c	/^  MPC_TYPE_STRING    = 14,$/;"	e	enum:__anon6	file:
+MPC_TYPE_UNDEFINED	mpc.c	/^  MPC_TYPE_UNDEFINED = 0,$/;"	e	enum:__anon6	file:
+PT_ASSERT	tests/ptest.h	12;"	d
+PT_ASSERT_STR_EQ	tests/ptest.h	13;"	d
+PT_FUNC	tests/ptest.h	8;"	d
+PT_REG	tests/ptest.h	9;"	d
+PT_SUITE	tests/ptest.h	6;"	d
+PT_TEST	tests/ptest.h	10;"	d
+PURPLE	tests/ptest.c	/^  PURPLE  = 5,$/;"	e	enum:__anon34	file:
+RED	tests/ptest.c	/^  RED     = 4,$/;"	e	enum:__anon34	file:
+STND	Makefile	/^STND=-ansi$/;"	m
+TESTS	Makefile	/^TESTS = $(wildcard tests\/*.c)$/;"	m
+WHITE	tests/ptest.c	/^  WHITE   = 7,$/;"	e	enum:__anon34	file:
+YELLOW	tests/ptest.c	/^  YELLOW  = 6,$/;"	e	enum:__anon34	file:
+add_history	main.c	/^void add_history(char* unused) {}$/;"	f
+anchor	mpc.c	/^  mpc_pdata_anchor_t anchor;$/;"	m	union:__anon22	file:
+and	mpc.c	/^  mpc_pdata_and_t and;$/;"	m	union:__anon22	file:
+apply	mpc.c	/^  mpc_pdata_apply_t apply;$/;"	m	union:__anon22	file:
+apply_to	mpc.c	/^  mpc_pdata_apply_to_t apply_to;$/;"	m	union:__anon22	file:
+assert_err	tests/ptest.c	/^static char assert_err[MAX_ERROR];$/;"	v	file:
+assert_err_buff	tests/ptest.c	/^static char assert_err_buff[MAX_ERROR];$/;"	v	file:
+assert_err_num	tests/ptest.c	/^static int assert_err_num = 0;$/;"	v	file:
+backtrack	mpc.c	/^  int backtrack;$/;"	m	struct:__anon5	file:
+buffer	main.c	/^static char buffer[2048];$/;"	v	file:
+buffer	mpc.c	/^  char *buffer;$/;"	m	struct:__anon5	file:
+char_unescape_buffer	mpc.c	/^static char char_unescape_buffer[4];$/;"	v	file:
+children	mpc.h	/^  struct mpc_ast_t** children;$/;"	m	struct:mpc_ast_t	typeref:struct:mpc_ast_t::mpc_ast_t
+children_num	mpc.h	/^  int children_num;$/;"	m	struct:mpc_ast_t
+col	mpc.h	/^  long col;$/;"	m	struct:__anon26
+colors	tests/ptest.c	/^static const char* colors[] = {$/;"	v	file:
+contents	mpc.h	/^  char *contents;$/;"	m	struct:mpc_ast_t
+curr_child	mpc.h	/^  int                    curr_child;$/;"	m	struct:mpc_ast_trav_t
+curr_node	mpc.h	/^  mpc_ast_t             *curr_node;$/;"	m	struct:mpc_ast_trav_t
+current_suite	tests/ptest.c	/^static char current_suite[MAX_NAME];$/;"	v	file:
+d	mpc.c	/^typedef struct { mpc_parser_t *x; mpc_apply_to_t f; void *d; } mpc_pdata_apply_to_t;$/;"	m	struct:__anon16	file:
+data	mpc.c	/^  mpc_pdata_t data;$/;"	m	struct:mpc_parser_t	file:
+defaults	tests/ptest.c	/^static WORD defaults;$/;"	v	file:
+defaults_loaded	tests/ptest.c	/^static int defaults_loaded = 0;$/;"	v	file:
+dx	mpc.c	/^typedef struct { int n; mpc_fold_t f; mpc_parser_t *x; mpc_dtor_t dx; } mpc_pdata_repeat_t;$/;"	m	struct:__anon19	file:
+dx	mpc.c	/^typedef struct { mpc_parser_t *x; mpc_dtor_t dx; mpc_ctor_t lf; } mpc_pdata_not_t;$/;"	m	struct:__anon18	file:
+dxs	mpc.c	/^typedef struct { int n; mpc_fold_t f; mpc_parser_t **xs; mpc_dtor_t *dxs;  } mpc_pdata_and_t;$/;"	m	struct:__anon21	file:
+end	tests/ptest.c	/^static clock_t start, end;$/;"	v	file:
+error	mpc.h	/^  mpc_err_t *error;$/;"	m	union:__anon28
+eval	main.c	/^long eval(mpc_ast_t* t) {$/;"	f
+eval_op	main.c	/^long eval_op(long x, char* op, long y) {$/;"	f
+expect	mpc.c	/^  mpc_pdata_expect_t expect;$/;"	m	union:__anon22	file:
+expected	mpc.h	/^  char **expected;$/;"	m	struct:__anon27
+expected_num	mpc.h	/^  int expected_num;$/;"	m	struct:__anon27
+f	mpc.c	/^typedef struct { int n; mpc_fold_t f; mpc_parser_t **xs; mpc_dtor_t *dxs;  } mpc_pdata_and_t;$/;"	m	struct:__anon21	file:
+f	mpc.c	/^typedef struct { int n; mpc_fold_t f; mpc_parser_t *x; mpc_dtor_t dx; } mpc_pdata_repeat_t;$/;"	m	struct:__anon19	file:
+f	mpc.c	/^typedef struct { int(*f)(char); } mpc_pdata_satisfy_t;$/;"	m	struct:__anon13	file:
+f	mpc.c	/^typedef struct { int(*f)(char,char); } mpc_pdata_anchor_t;$/;"	m	struct:__anon10	file:
+f	mpc.c	/^typedef struct { mpc_parser_t *x; mpc_apply_t f; } mpc_pdata_apply_t;$/;"	m	struct:__anon15	file:
+f	mpc.c	/^typedef struct { mpc_parser_t *x; mpc_apply_to_t f; void *d; } mpc_pdata_apply_to_t;$/;"	m	struct:__anon16	file:
+fail	mpc.c	/^  mpc_pdata_fail_t fail;$/;"	m	union:__anon22	file:
+failure	mpc.h	/^  char *failure;$/;"	m	struct:__anon27
+file	mpc.c	/^  FILE *file;$/;"	m	struct:__anon5	file:
+filename	mpc.c	/^  char *filename;  $/;"	m	struct:__anon5	file:
+filename	mpc.h	/^  char *filename;$/;"	m	struct:__anon27
+flags	mpc.c	/^  int flags;$/;"	m	struct:__anon24	file:
+func	tests/ptest.c	/^  void (*func)(void);$/;"	m	struct:__anon35	file:
+grammar	mpc.c	/^  mpc_parser_t *grammar;$/;"	m	struct:__anon25	file:
+ident	mpc.c	/^  char *ident;$/;"	m	struct:__anon25	file:
+int_eq	tests/core.c	/^static int int_eq(const void* x, const void* y) { return (*(int*)x == *(int*)y); }$/;"	f	file:
+int_print	tests/core.c	/^static void int_print(const void* x) { printf("'%i'", *((int*)x)); }$/;"	f	file:
+is_number	mpc.c	/^static int is_number(const char* s) {$/;"	f	file:
+last	mpc.c	/^  char last;$/;"	m	struct:__anon5	file:
+lasts	mpc.c	/^  char *lasts;$/;"	m	struct:__anon5	file:
+lf	mpc.c	/^typedef struct { mpc_ctor_t lf; void *x; } mpc_pdata_lift_t;$/;"	m	struct:__anon8	file:
+lf	mpc.c	/^typedef struct { mpc_parser_t *x; mpc_dtor_t dx; mpc_ctor_t lf; } mpc_pdata_not_t;$/;"	m	struct:__anon18	file:
+lift	mpc.c	/^  mpc_pdata_lift_t lift;$/;"	m	union:__anon22	file:
+m	mpc.c	/^typedef struct { char *m; } mpc_pdata_fail_t;$/;"	m	struct:__anon7	file:
+m	mpc.c	/^typedef struct { mpc_parser_t *x; char *m; } mpc_pdata_expect_t;$/;"	m	struct:__anon9	file:
+main	examples/doge.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/foobar.c	/^int main(int argc, char** argv) {$/;"	f
+main	examples/lispy.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/maths.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/smallc.c	/^int main(int argc, char **argv) {$/;"	f
+main	examples/tree_traversal.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	kk.c	/^void main (void)$/;"	f
+main	main.c	/^int main(int argc, char** argv) {$/;"	f
+main	tests/test.c	/^int main(int argc, char** argv) {$/;"	f
+marks	mpc.c	/^  mpc_state_t *marks;$/;"	m	struct:__anon5	file:
+marks_num	mpc.c	/^  int marks_num;$/;"	m	struct:__anon5	file:
+marks_slots	mpc.c	/^  int marks_slots;$/;"	m	struct:__anon5	file:
+mem	mpc.c	/^  char mem[64];$/;"	m	struct:__anon4	file:
+mem	mpc.c	/^  mpc_mem_t mem[MPC_INPUT_MEM_NUM];$/;"	m	struct:__anon5	file:
+mem_full	mpc.c	/^  char mem_full[MPC_INPUT_MEM_NUM];$/;"	m	struct:__anon5	file:
+mem_index	mpc.c	/^  size_t mem_index;$/;"	m	struct:__anon5	file:
+mpc_alpha	mpc.c	/^mpc_parser_t *mpc_alpha(void) { return mpc_expect(mpc_oneof("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"), "letter"); }$/;"	f
+mpc_alphanum	mpc.c	/^mpc_parser_t *mpc_alphanum(void) { return mpc_expect(mpc_or(3, mpc_alpha(), mpc_digit(), mpc_underscore()), "alphanumeric"); }$/;"	f
+mpc_anchor	mpc.c	/^mpc_parser_t *mpc_anchor(int(*f)(char,char)) {$/;"	f
+mpc_and	mpc.c	/^mpc_parser_t *mpc_and(int n, mpc_fold_t f, ...) {$/;"	f
+mpc_any	mpc.c	/^mpc_parser_t *mpc_any(void) {$/;"	f
+mpc_apply	mpc.c	/^mpc_parser_t *mpc_apply(mpc_parser_t *a, mpc_apply_t f) {$/;"	f
+mpc_apply_t	mpc.h	/^typedef mpc_val_t*(*mpc_apply_t)(mpc_val_t*);$/;"	t
+mpc_apply_to	mpc.c	/^mpc_parser_t *mpc_apply_to(mpc_parser_t *a, mpc_apply_to_t f, void *x) {$/;"	f
+mpc_apply_to_t	mpc.h	/^typedef mpc_val_t*(*mpc_apply_to_t)(mpc_val_t*,void*);$/;"	t
+mpc_ast_add_child	mpc.c	/^mpc_ast_t *mpc_ast_add_child(mpc_ast_t *r, mpc_ast_t *a) {$/;"	f
+mpc_ast_add_root	mpc.c	/^mpc_ast_t *mpc_ast_add_root(mpc_ast_t *a) {$/;"	f
+mpc_ast_add_root_tag	mpc.c	/^mpc_ast_t *mpc_ast_add_root_tag(mpc_ast_t *a, const char *t) {$/;"	f
+mpc_ast_add_tag	mpc.c	/^mpc_ast_t *mpc_ast_add_tag(mpc_ast_t *a, const char *t) {$/;"	f
+mpc_ast_build	mpc.c	/^mpc_ast_t *mpc_ast_build(int n, const char *tag, ...) {$/;"	f
+mpc_ast_delete	mpc.c	/^void mpc_ast_delete(mpc_ast_t *a) {$/;"	f
+mpc_ast_delete_no_children	mpc.c	/^static void mpc_ast_delete_no_children(mpc_ast_t *a) {$/;"	f	file:
+mpc_ast_eq	mpc.c	/^int mpc_ast_eq(mpc_ast_t *a, mpc_ast_t *b) {$/;"	f
+mpc_ast_get_child	mpc.c	/^mpc_ast_t *mpc_ast_get_child(mpc_ast_t *ast, const char *tag) {$/;"	f
+mpc_ast_get_child_lb	mpc.c	/^mpc_ast_t *mpc_ast_get_child_lb(mpc_ast_t *ast, const char *tag, int lb) {$/;"	f
+mpc_ast_get_index	mpc.c	/^int mpc_ast_get_index(mpc_ast_t *ast, const char *tag) {$/;"	f
+mpc_ast_get_index_lb	mpc.c	/^int mpc_ast_get_index_lb(mpc_ast_t *ast, const char *tag, int lb) {$/;"	f
+mpc_ast_new	mpc.c	/^mpc_ast_t *mpc_ast_new(const char *tag, const char *contents) {$/;"	f
+mpc_ast_print	mpc.c	/^void mpc_ast_print(mpc_ast_t *a) {$/;"	f
+mpc_ast_print_depth	mpc.c	/^static void mpc_ast_print_depth(mpc_ast_t *a, int d, FILE *fp) {$/;"	f	file:
+mpc_ast_print_to	mpc.c	/^void mpc_ast_print_to(mpc_ast_t *a, FILE *fp) {$/;"	f
+mpc_ast_state	mpc.c	/^mpc_ast_t *mpc_ast_state(mpc_ast_t *a, mpc_state_t s) {$/;"	f
+mpc_ast_t	mpc.h	/^typedef struct mpc_ast_t {$/;"	s
+mpc_ast_t	mpc.h	/^} mpc_ast_t;$/;"	t	typeref:struct:mpc_ast_t
+mpc_ast_tag	mpc.c	/^mpc_ast_t *mpc_ast_tag(mpc_ast_t *a, const char *t) {$/;"	f
+mpc_ast_trav_order_post	mpc.h	/^  mpc_ast_trav_order_post$/;"	e	enum:__anon29
+mpc_ast_trav_order_pre	mpc.h	/^  mpc_ast_trav_order_pre,$/;"	e	enum:__anon29
+mpc_ast_trav_order_t	mpc.h	/^} mpc_ast_trav_order_t;$/;"	t	typeref:enum:__anon29
+mpc_ast_trav_t	mpc.h	/^typedef struct mpc_ast_trav_t {$/;"	s
+mpc_ast_trav_t	mpc.h	/^} mpc_ast_trav_t;$/;"	t	typeref:struct:mpc_ast_trav_t
+mpc_ast_traverse_free	mpc.c	/^void mpc_ast_traverse_free(mpc_ast_trav_t **trav) {$/;"	f
+mpc_ast_traverse_next	mpc.c	/^mpc_ast_t *mpc_ast_traverse_next(mpc_ast_trav_t **trav) {$/;"	f
+mpc_ast_traverse_start	mpc.c	/^mpc_ast_trav_t *mpc_ast_traverse_start(mpc_ast_t *ast,$/;"	f
+mpc_between	mpc.c	/^mpc_parser_t *mpc_between(mpc_parser_t *a, mpc_dtor_t ad, const char *o, const char *c) {$/;"	f
+mpc_blank	mpc.c	/^mpc_parser_t *mpc_blank(void) { return mpc_expect(mpc_apply(mpc_whitespaces(), mpcf_free), "whitespace"); }$/;"	f
+mpc_boundary	mpc.c	/^mpc_parser_t *mpc_boundary(void) { return mpc_expect(mpc_anchor(mpc_boundary_anchor), "boundary"); }$/;"	f
+mpc_boundary_anchor	mpc.c	/^static int mpc_boundary_anchor(char prev, char next) {$/;"	f	file:
+mpc_braces	mpc.c	/^mpc_parser_t *mpc_braces(mpc_parser_t *a, mpc_dtor_t ad)   { return mpc_between(a, ad, "<", ">"); }$/;"	f
+mpc_brackets	mpc.c	/^mpc_parser_t *mpc_brackets(mpc_parser_t *a, mpc_dtor_t ad) { return mpc_between(a, ad, "{", "}"); }$/;"	f
+mpc_calloc	mpc.c	/^static void *mpc_calloc(mpc_input_t *i, size_t n, size_t m) {$/;"	f	file:
+mpc_char	mpc.c	/^mpc_parser_t *mpc_char(char c) {$/;"	f
+mpc_char_lit	mpc.c	/^mpc_parser_t *mpc_char_lit(void) {$/;"	f
+mpc_cleanup	mpc.c	/^void mpc_cleanup(int n, ...) {$/;"	f
+mpc_copy	mpc.c	/^mpc_parser_t *mpc_copy(mpc_parser_t *a) {$/;"	f
+mpc_count	mpc.c	/^mpc_parser_t *mpc_count(int n, mpc_fold_t f, mpc_parser_t *a, mpc_dtor_t da) {$/;"	f
+mpc_ctor_t	mpc.h	/^typedef mpc_val_t*(*mpc_ctor_t)(void);$/;"	t
+mpc_define	mpc.c	/^mpc_parser_t *mpc_define(mpc_parser_t *p, mpc_parser_t *a) {$/;"	f
+mpc_delete	mpc.c	/^void mpc_delete(mpc_parser_t *p) {$/;"	f
+mpc_digit	mpc.c	/^mpc_parser_t *mpc_digit(void) { return mpc_expect(mpc_oneof("0123456789"), "digit"); }$/;"	f
+mpc_digits	mpc.c	/^mpc_parser_t *mpc_digits(void) { return mpc_expect(mpc_many1(mpcf_strfold, mpc_digit()), "digits"); }$/;"	f
+mpc_dtor_t	mpc.h	/^typedef void(*mpc_dtor_t)(mpc_val_t*);$/;"	t
+mpc_endwith	mpc.c	/^mpc_parser_t *mpc_endwith(mpc_parser_t *a, mpc_dtor_t da) { return mpc_and(2, mpcf_fst, a, mpc_eoi(), da); }$/;"	f
+mpc_eoi	mpc.c	/^mpc_parser_t *mpc_eoi(void) { return mpc_expect(mpc_anchor(mpc_eoi_anchor), "end of input"); }$/;"	f
+mpc_eoi_anchor	mpc.c	/^static int mpc_eoi_anchor(char prev, char next) { (void) prev; return (next == '\\0'); }$/;"	f	file:
+mpc_err_add_expected	mpc.c	/^static void mpc_err_add_expected(mpc_input_t *i, mpc_err_t *x, char *expected) {$/;"	f	file:
+mpc_err_char_unescape	mpc.c	/^static const char *mpc_err_char_unescape(char c) {$/;"	f	file:
+mpc_err_contains_expected	mpc.c	/^static int mpc_err_contains_expected(mpc_input_t *i, mpc_err_t *x, char *expected) {$/;"	f	file:
+mpc_err_count	mpc.c	/^static mpc_err_t *mpc_err_count(mpc_input_t *i, mpc_err_t *x, int n) {$/;"	f	file:
+mpc_err_delete	mpc.c	/^void mpc_err_delete(mpc_err_t *x) {$/;"	f
+mpc_err_delete_internal	mpc.c	/^static void mpc_err_delete_internal(mpc_input_t *i, mpc_err_t *x) {$/;"	f	file:
+mpc_err_export	mpc.c	/^static mpc_err_t *mpc_err_export(mpc_input_t *i, mpc_err_t *x) {$/;"	f	file:
+mpc_err_fail	mpc.c	/^static mpc_err_t *mpc_err_fail(mpc_input_t *i, const char *failure) {$/;"	f	file:
+mpc_err_file	mpc.c	/^static mpc_err_t *mpc_err_file(const char *filename, const char *failure) {$/;"	f	file:
+mpc_err_many1	mpc.c	/^static mpc_err_t *mpc_err_many1(mpc_input_t *i, mpc_err_t *x) {$/;"	f	file:
+mpc_err_merge	mpc.c	/^static mpc_err_t *mpc_err_merge(mpc_input_t *i, mpc_err_t *x, mpc_err_t *y) {$/;"	f	file:
+mpc_err_new	mpc.c	/^static mpc_err_t *mpc_err_new(mpc_input_t *i, const char *expected) {$/;"	f	file:
+mpc_err_or	mpc.c	/^static mpc_err_t *mpc_err_or(mpc_input_t *i, mpc_err_t** x, int n) {$/;"	f	file:
+mpc_err_print	mpc.c	/^void mpc_err_print(mpc_err_t *x) {$/;"	f
+mpc_err_print_to	mpc.c	/^void mpc_err_print_to(mpc_err_t *x, FILE *f) {$/;"	f
+mpc_err_repeat	mpc.c	/^static mpc_err_t *mpc_err_repeat(mpc_input_t *i, mpc_err_t *x, const char *prefix) {$/;"	f	file:
+mpc_err_string	mpc.c	/^char *mpc_err_string(mpc_err_t *x) {$/;"	f
+mpc_err_string_cat	mpc.c	/^static void mpc_err_string_cat(char *buffer, int *pos, int *max, char const *fmt, ...) {$/;"	f	file:
+mpc_err_t	mpc.h	/^} mpc_err_t;$/;"	t	typeref:struct:__anon27
+mpc_escape	mpc.c	/^mpc_parser_t *mpc_escape(void) { return mpc_and(2, mpcf_strfold, mpc_char('\\\\'), mpc_any(), free); }$/;"	f
+mpc_escape_input_c	mpc.c	/^static const char mpc_escape_input_c[]  = {$/;"	v	file:
+mpc_escape_input_raw_cchar	mpc.c	/^static const char mpc_escape_input_raw_cchar[] = { '\\'' };$/;"	v	file:
+mpc_escape_input_raw_cstr	mpc.c	/^static const char mpc_escape_input_raw_cstr[] = { '"' };$/;"	v	file:
+mpc_escape_input_raw_re	mpc.c	/^static const char mpc_escape_input_raw_re[] = { '\/' };$/;"	v	file:
+mpc_escape_output_c	mpc.c	/^static const char *mpc_escape_output_c[] = {$/;"	v	file:
+mpc_escape_output_raw_cchar	mpc.c	/^static const char *mpc_escape_output_raw_cchar[] = { "\\\\'", NULL };$/;"	v	file:
+mpc_escape_output_raw_cstr	mpc.c	/^static const char *mpc_escape_output_raw_cstr[] = { "\\\\\\"", NULL };$/;"	v	file:
+mpc_escape_output_raw_re	mpc.c	/^static const char *mpc_escape_output_raw_re[] = { "\\\\\/", NULL };$/;"	v	file:
+mpc_expect	mpc.c	/^mpc_parser_t *mpc_expect(mpc_parser_t *a, const char *expected) {$/;"	f
+mpc_expectf	mpc.c	/^mpc_parser_t *mpc_expectf(mpc_parser_t *a, const char *fmt, ...) {$/;"	f
+mpc_export	mpc.c	/^static void *mpc_export(mpc_input_t *i, void *p) {$/;"	f	file:
+mpc_fail	mpc.c	/^mpc_parser_t *mpc_fail(const char *m) {$/;"	f
+mpc_failf	mpc.c	/^mpc_parser_t *mpc_failf(const char *fmt, ...) {$/;"	f
+mpc_float	mpc.c	/^mpc_parser_t *mpc_float(void) {$/;"	f
+mpc_fold_t	mpc.h	/^typedef mpc_val_t*(*mpc_fold_t)(int,mpc_val_t**);$/;"	t
+mpc_free	mpc.c	/^static void mpc_free(mpc_input_t *i, void *p) {$/;"	f	file:
+mpc_h	mpc.h	11;"	d
+mpc_hex	mpc.c	/^mpc_parser_t *mpc_hex(void) { return mpc_expect(mpc_apply(mpc_hexdigits(), mpcf_hex), "hexadecimal"); }$/;"	f
+mpc_hexdigit	mpc.c	/^mpc_parser_t *mpc_hexdigit(void) { return mpc_expect(mpc_oneof("0123456789ABCDEFabcdef"), "hex digit"); }$/;"	f
+mpc_hexdigits	mpc.c	/^mpc_parser_t *mpc_hexdigits(void) { return mpc_expect(mpc_many1(mpcf_strfold, mpc_hexdigit()), "hex digits"); }$/;"	f
+mpc_ident	mpc.c	/^mpc_parser_t *mpc_ident(void) {$/;"	f
+mpc_input_anchor	mpc.c	/^static int mpc_input_anchor(mpc_input_t* i, int(*f)(char,char), char **o) {$/;"	f	file:
+mpc_input_any	mpc.c	/^static int mpc_input_any(mpc_input_t *i, char **o) {$/;"	f	file:
+mpc_input_backtrack_disable	mpc.c	/^static void mpc_input_backtrack_disable(mpc_input_t *i) { i->backtrack--; }$/;"	f	file:
+mpc_input_backtrack_enable	mpc.c	/^static void mpc_input_backtrack_enable(mpc_input_t *i) { i->backtrack++; }$/;"	f	file:
+mpc_input_buffer_get	mpc.c	/^static char mpc_input_buffer_get(mpc_input_t *i) {$/;"	f	file:
+mpc_input_buffer_in_range	mpc.c	/^static int mpc_input_buffer_in_range(mpc_input_t *i) {$/;"	f	file:
+mpc_input_char	mpc.c	/^static int mpc_input_char(mpc_input_t *i, char c, char **o) {$/;"	f	file:
+mpc_input_delete	mpc.c	/^static void mpc_input_delete(mpc_input_t *i) {$/;"	f	file:
+mpc_input_failure	mpc.c	/^static int mpc_input_failure(mpc_input_t *i, char c) {$/;"	f	file:
+mpc_input_getc	mpc.c	/^static char mpc_input_getc(mpc_input_t *i) {$/;"	f	file:
+mpc_input_mark	mpc.c	/^static void mpc_input_mark(mpc_input_t *i) {$/;"	f	file:
+mpc_input_new_file	mpc.c	/^static mpc_input_t *mpc_input_new_file(const char *filename, FILE *file) {$/;"	f	file:
+mpc_input_new_nstring	mpc.c	/^static mpc_input_t *mpc_input_new_nstring(const char *filename, const char *string, size_t length) {$/;"	f	file:
+mpc_input_new_pipe	mpc.c	/^static mpc_input_t *mpc_input_new_pipe(const char *filename, FILE *pipe) {$/;"	f	file:
+mpc_input_new_string	mpc.c	/^static mpc_input_t *mpc_input_new_string(const char *filename, const char *string) {$/;"	f	file:
+mpc_input_noneof	mpc.c	/^static int mpc_input_noneof(mpc_input_t *i, const char *c, char **o) {$/;"	f	file:
+mpc_input_oneof	mpc.c	/^static int mpc_input_oneof(mpc_input_t *i, const char *c, char **o) {$/;"	f	file:
+mpc_input_peekc	mpc.c	/^static char mpc_input_peekc(mpc_input_t *i) {$/;"	f	file:
+mpc_input_range	mpc.c	/^static int mpc_input_range(mpc_input_t *i, char c, char d, char **o) {$/;"	f	file:
+mpc_input_rewind	mpc.c	/^static void mpc_input_rewind(mpc_input_t *i) {$/;"	f	file:
+mpc_input_satisfy	mpc.c	/^static int mpc_input_satisfy(mpc_input_t *i, int(*cond)(char), char **o) {$/;"	f	file:
+mpc_input_state_copy	mpc.c	/^static mpc_state_t *mpc_input_state_copy(mpc_input_t *i) {$/;"	f	file:
+mpc_input_string	mpc.c	/^static int mpc_input_string(mpc_input_t *i, const char *c, char **o) {$/;"	f	file:
+mpc_input_success	mpc.c	/^static int mpc_input_success(mpc_input_t *i, char c, char **o) {$/;"	f	file:
+mpc_input_suppress_disable	mpc.c	/^static void mpc_input_suppress_disable(mpc_input_t *i) { i->suppress--; }$/;"	f	file:
+mpc_input_suppress_enable	mpc.c	/^static void mpc_input_suppress_enable(mpc_input_t *i) { i->suppress++; }$/;"	f	file:
+mpc_input_t	mpc.c	/^} mpc_input_t;$/;"	t	typeref:struct:__anon5	file:
+mpc_input_terminated	mpc.c	/^static int mpc_input_terminated(mpc_input_t *i) {$/;"	f	file:
+mpc_input_unmark	mpc.c	/^static void mpc_input_unmark(mpc_input_t *i) {$/;"	f	file:
+mpc_int	mpc.c	/^mpc_parser_t *mpc_int(void) { return mpc_expect(mpc_apply(mpc_digits(), mpcf_int), "integer"); }$/;"	f
+mpc_lift	mpc.c	/^mpc_parser_t *mpc_lift(mpc_ctor_t lf) {$/;"	f
+mpc_lift_val	mpc.c	/^mpc_parser_t *mpc_lift_val(mpc_val_t *x) {$/;"	f
+mpc_lower	mpc.c	/^mpc_parser_t *mpc_lower(void) { return mpc_expect(mpc_oneof("abcdefghijklmnopqrstuvwxyz"), "lowercase letter"); }$/;"	f
+mpc_malloc	mpc.c	/^static void *mpc_malloc(mpc_input_t *i, size_t n) {$/;"	f	file:
+mpc_many	mpc.c	/^mpc_parser_t *mpc_many(mpc_fold_t f, mpc_parser_t *a) {$/;"	f
+mpc_many1	mpc.c	/^mpc_parser_t *mpc_many1(mpc_fold_t f, mpc_parser_t *a) {$/;"	f
+mpc_maybe	mpc.c	/^mpc_parser_t *mpc_maybe(mpc_parser_t *a) {$/;"	f
+mpc_maybe_lift	mpc.c	/^mpc_parser_t *mpc_maybe_lift(mpc_parser_t *a, mpc_ctor_t lf) {$/;"	f
+mpc_mem_ptr	mpc.c	/^static int mpc_mem_ptr(mpc_input_t *i, void *p) {$/;"	f	file:
+mpc_mem_t	mpc.c	/^} mpc_mem_t;$/;"	t	typeref:struct:__anon4	file:
+mpc_new	mpc.c	/^mpc_parser_t *mpc_new(const char *name) {$/;"	f
+mpc_newline	mpc.c	/^mpc_parser_t *mpc_newline(void) { return mpc_expect(mpc_char('\\n'), "newline"); }$/;"	f
+mpc_nodecount_unretained	mpc.c	/^static int mpc_nodecount_unretained(mpc_parser_t* p, int force) {$/;"	f	file:
+mpc_noneof	mpc.c	/^mpc_parser_t *mpc_noneof(const char *s) {$/;"	f
+mpc_not	mpc.c	/^mpc_parser_t *mpc_not(mpc_parser_t *a, mpc_dtor_t da) {$/;"	f
+mpc_not_lift	mpc.c	/^mpc_parser_t *mpc_not_lift(mpc_parser_t *a, mpc_dtor_t da, mpc_ctor_t lf) {$/;"	f
+mpc_nparse	mpc.c	/^int mpc_nparse(const char *filename, const char *string, size_t length, mpc_parser_t *p, mpc_result_t *r) {$/;"	f
+mpc_number	mpc.c	/^mpc_parser_t *mpc_number(void) { return mpc_expect(mpc_or(3, mpc_int(), mpc_hex(), mpc_oct()), "number"); }$/;"	f
+mpc_oct	mpc.c	/^mpc_parser_t *mpc_oct(void) { return mpc_expect(mpc_apply(mpc_octdigits(), mpcf_oct), "octadecimal"); }$/;"	f
+mpc_octdigit	mpc.c	/^mpc_parser_t *mpc_octdigit(void) { return mpc_expect(mpc_oneof("01234567"), "oct digit"); }$/;"	f
+mpc_octdigits	mpc.c	/^mpc_parser_t *mpc_octdigits(void) { return mpc_expect(mpc_many1(mpcf_strfold, mpc_octdigit()), "oct digits"); }$/;"	f
+mpc_oneof	mpc.c	/^mpc_parser_t *mpc_oneof(const char *s) {$/;"	f
+mpc_optimise	mpc.c	/^void mpc_optimise(mpc_parser_t *p) {$/;"	f
+mpc_optimise_unretained	mpc.c	/^static void mpc_optimise_unretained(mpc_parser_t *p, int force) {$/;"	f	file:
+mpc_or	mpc.c	/^mpc_parser_t *mpc_or(int n, ...) {$/;"	f
+mpc_parens	mpc.c	/^mpc_parser_t *mpc_parens(mpc_parser_t *a, mpc_dtor_t ad)   { return mpc_between(a, ad, "(", ")"); }$/;"	f
+mpc_parse	mpc.c	/^int mpc_parse(const char *filename, const char *string, mpc_parser_t *p, mpc_result_t *r) {$/;"	f
+mpc_parse_apply	mpc.c	/^static mpc_val_t *mpc_parse_apply(mpc_input_t *i, mpc_apply_t f, mpc_val_t *x) {$/;"	f	file:
+mpc_parse_apply_to	mpc.c	/^static mpc_val_t *mpc_parse_apply_to(mpc_input_t *i, mpc_apply_to_t f, mpc_val_t *x, mpc_val_t *d) {$/;"	f	file:
+mpc_parse_contents	mpc.c	/^int mpc_parse_contents(const char *filename, mpc_parser_t *p, mpc_result_t *r) {$/;"	f
+mpc_parse_dtor	mpc.c	/^static void mpc_parse_dtor(mpc_input_t *i, mpc_dtor_t d, mpc_val_t *x) {$/;"	f	file:
+mpc_parse_file	mpc.c	/^int mpc_parse_file(const char *filename, FILE *file, mpc_parser_t *p, mpc_result_t *r) {$/;"	f
+mpc_parse_fold	mpc.c	/^static mpc_val_t *mpc_parse_fold(mpc_input_t *i, mpc_fold_t f, int n, mpc_val_t **xs) {$/;"	f	file:
+mpc_parse_input	mpc.c	/^int mpc_parse_input(mpc_input_t *i, mpc_parser_t *p, mpc_result_t *r) {$/;"	f
+mpc_parse_pipe	mpc.c	/^int mpc_parse_pipe(const char *filename, FILE *pipe, mpc_parser_t *p, mpc_result_t *r) {$/;"	f
+mpc_parse_run	mpc.c	/^static int mpc_parse_run(mpc_input_t *i, mpc_parser_t *p, mpc_result_t *r, mpc_err_t **e) {$/;"	f	file:
+mpc_parser_t	mpc.c	/^struct mpc_parser_t {$/;"	s	file:
+mpc_parser_t	mpc.h	/^typedef struct mpc_parser_t mpc_parser_t;$/;"	t	typeref:struct:mpc_parser_t
+mpc_pass	mpc.c	/^mpc_parser_t *mpc_pass(void) {$/;"	f
+mpc_pdata_anchor_t	mpc.c	/^typedef struct { int(*f)(char,char); } mpc_pdata_anchor_t;$/;"	t	typeref:struct:__anon10	file:
+mpc_pdata_and_t	mpc.c	/^typedef struct { int n; mpc_fold_t f; mpc_parser_t **xs; mpc_dtor_t *dxs;  } mpc_pdata_and_t;$/;"	t	typeref:struct:__anon21	file:
+mpc_pdata_apply_t	mpc.c	/^typedef struct { mpc_parser_t *x; mpc_apply_t f; } mpc_pdata_apply_t;$/;"	t	typeref:struct:__anon15	file:
+mpc_pdata_apply_to_t	mpc.c	/^typedef struct { mpc_parser_t *x; mpc_apply_to_t f; void *d; } mpc_pdata_apply_to_t;$/;"	t	typeref:struct:__anon16	file:
+mpc_pdata_expect_t	mpc.c	/^typedef struct { mpc_parser_t *x; char *m; } mpc_pdata_expect_t;$/;"	t	typeref:struct:__anon9	file:
+mpc_pdata_fail_t	mpc.c	/^typedef struct { char *m; } mpc_pdata_fail_t;$/;"	t	typeref:struct:__anon7	file:
+mpc_pdata_lift_t	mpc.c	/^typedef struct { mpc_ctor_t lf; void *x; } mpc_pdata_lift_t;$/;"	t	typeref:struct:__anon8	file:
+mpc_pdata_not_t	mpc.c	/^typedef struct { mpc_parser_t *x; mpc_dtor_t dx; mpc_ctor_t lf; } mpc_pdata_not_t;$/;"	t	typeref:struct:__anon18	file:
+mpc_pdata_or_t	mpc.c	/^typedef struct { int n; mpc_parser_t **xs; } mpc_pdata_or_t;$/;"	t	typeref:struct:__anon20	file:
+mpc_pdata_predict_t	mpc.c	/^typedef struct { mpc_parser_t *x; } mpc_pdata_predict_t;$/;"	t	typeref:struct:__anon17	file:
+mpc_pdata_range_t	mpc.c	/^typedef struct { char x; char y; } mpc_pdata_range_t;$/;"	t	typeref:struct:__anon12	file:
+mpc_pdata_repeat_t	mpc.c	/^typedef struct { int n; mpc_fold_t f; mpc_parser_t *x; mpc_dtor_t dx; } mpc_pdata_repeat_t;$/;"	t	typeref:struct:__anon19	file:
+mpc_pdata_satisfy_t	mpc.c	/^typedef struct { int(*f)(char); } mpc_pdata_satisfy_t;$/;"	t	typeref:struct:__anon13	file:
+mpc_pdata_single_t	mpc.c	/^typedef struct { char x; } mpc_pdata_single_t;$/;"	t	typeref:struct:__anon11	file:
+mpc_pdata_string_t	mpc.c	/^typedef struct { char *x; } mpc_pdata_string_t;$/;"	t	typeref:struct:__anon14	file:
+mpc_pdata_t	mpc.c	/^} mpc_pdata_t;$/;"	t	typeref:union:__anon22	file:
+mpc_predictive	mpc.c	/^mpc_parser_t *mpc_predictive(mpc_parser_t *a) {$/;"	f
+mpc_print	mpc.c	/^void mpc_print(mpc_parser_t *p) {$/;"	f
+mpc_print_unretained	mpc.c	/^static void mpc_print_unretained(mpc_parser_t *p, int force) {$/;"	f	file:
+mpc_range	mpc.c	/^mpc_parser_t *mpc_range(char s, char e) {$/;"	f
+mpc_re	mpc.c	/^mpc_parser_t *mpc_re(const char *re) {$/;"	f
+mpc_re_escape_char	mpc.c	/^static mpc_parser_t *mpc_re_escape_char(char c) {$/;"	f	file:
+mpc_re_range_escape_char	mpc.c	/^static const char *mpc_re_range_escape_char(char c) {$/;"	f	file:
+mpc_real	mpc.c	/^mpc_parser_t *mpc_real(void) {$/;"	f
+mpc_realloc	mpc.c	/^static void *mpc_realloc(mpc_input_t *i, void *p, size_t n) {$/;"	f	file:
+mpc_regex_lit	mpc.c	/^mpc_parser_t *mpc_regex_lit(void) {  $/;"	f
+mpc_result_t	mpc.h	/^} mpc_result_t;$/;"	t	typeref:union:__anon28
+mpc_satisfy	mpc.c	/^mpc_parser_t *mpc_satisfy(int(*f)(char)) {$/;"	f
+mpc_soft_delete	mpc.c	/^static void mpc_soft_delete(mpc_val_t *x) {$/;"	f	file:
+mpc_soi	mpc.c	/^mpc_parser_t *mpc_soi(void) { return mpc_expect(mpc_anchor(mpc_soi_anchor), "start of input"); }$/;"	f
+mpc_soi_anchor	mpc.c	/^static int mpc_soi_anchor(char prev, char next) { (void) next; return (prev == '\\0'); }$/;"	f	file:
+mpc_squares	mpc.c	/^mpc_parser_t *mpc_squares(mpc_parser_t *a, mpc_dtor_t ad)  { return mpc_between(a, ad, "[", "]"); }$/;"	f
+mpc_startwith	mpc.c	/^mpc_parser_t *mpc_startwith(mpc_parser_t *a) { return mpc_and(2, mpcf_snd, mpc_soi(), a, mpcf_dtor_null); }$/;"	f
+mpc_state	mpc.c	/^mpc_parser_t *mpc_state(void) {$/;"	f
+mpc_state_invalid	mpc.c	/^static mpc_state_t mpc_state_invalid(void) {$/;"	f	file:
+mpc_state_new	mpc.c	/^static mpc_state_t mpc_state_new(void) {$/;"	f	file:
+mpc_state_t	mpc.h	/^} mpc_state_t;$/;"	t	typeref:struct:__anon26
+mpc_stats	mpc.c	/^void mpc_stats(mpc_parser_t* p) {$/;"	f
+mpc_string	mpc.c	/^mpc_parser_t *mpc_string(const char *s) {$/;"	f
+mpc_string_lit	mpc.c	/^mpc_parser_t *mpc_string_lit(void) {$/;"	f
+mpc_strip	mpc.c	/^mpc_parser_t *mpc_strip(mpc_parser_t *a) { return mpc_and(3, mpcf_snd, mpc_blank(), a, mpc_blank(), mpcf_dtor_null, mpcf_dtor_null); }$/;"	f
+mpc_stripl	mpc.c	/^mpc_parser_t *mpc_stripl(mpc_parser_t *a) { return mpc_and(2, mpcf_snd, mpc_blank(), a, mpcf_dtor_null); }$/;"	f
+mpc_stripr	mpc.c	/^mpc_parser_t *mpc_stripr(mpc_parser_t *a) { return mpc_and(2, mpcf_fst, a, mpc_blank(), mpcf_dtor_null); }$/;"	f
+mpc_sym	mpc.c	/^mpc_parser_t *mpc_sym(const char *s) { return mpc_tok(mpc_string(s)); }$/;"	f
+mpc_tab	mpc.c	/^mpc_parser_t *mpc_tab(void) { return mpc_expect(mpc_char('\\t'), "tab"); }$/;"	f
+mpc_test_fail	mpc.c	/^int mpc_test_fail(mpc_parser_t *p, const char *s, const void *d,$/;"	f
+mpc_test_pass	mpc.c	/^int mpc_test_pass(mpc_parser_t *p, const char *s, const void *d,$/;"	f
+mpc_tok	mpc.c	/^mpc_parser_t *mpc_tok(mpc_parser_t *a) { return mpc_and(2, mpcf_fst, a, mpc_blank(), mpcf_dtor_null); }$/;"	f
+mpc_tok_between	mpc.c	/^mpc_parser_t *mpc_tok_between(mpc_parser_t *a, mpc_dtor_t ad, const char *o, const char *c) {$/;"	f
+mpc_tok_braces	mpc.c	/^mpc_parser_t *mpc_tok_braces(mpc_parser_t *a, mpc_dtor_t ad)   { return mpc_tok_between(a, ad, "<", ">"); }$/;"	f
+mpc_tok_brackets	mpc.c	/^mpc_parser_t *mpc_tok_brackets(mpc_parser_t *a, mpc_dtor_t ad) { return mpc_tok_between(a, ad, "{", "}"); }$/;"	f
+mpc_tok_parens	mpc.c	/^mpc_parser_t *mpc_tok_parens(mpc_parser_t *a, mpc_dtor_t ad)   { return mpc_tok_between(a, ad, "(", ")"); }$/;"	f
+mpc_tok_squares	mpc.c	/^mpc_parser_t *mpc_tok_squares(mpc_parser_t *a, mpc_dtor_t ad)  { return mpc_tok_between(a, ad, "[", "]"); }$/;"	f
+mpc_total	mpc.c	/^mpc_parser_t *mpc_total(mpc_parser_t *a, mpc_dtor_t da) { return mpc_whole(mpc_strip(a), da); }$/;"	f
+mpc_undefine	mpc.c	/^mpc_parser_t *mpc_undefine(mpc_parser_t *p) {$/;"	f
+mpc_undefine_and	mpc.c	/^static void mpc_undefine_and(mpc_parser_t *p) {$/;"	f	file:
+mpc_undefine_or	mpc.c	/^static void mpc_undefine_or(mpc_parser_t *p) {$/;"	f	file:
+mpc_undefine_unretained	mpc.c	/^static void mpc_undefine_unretained(mpc_parser_t *p, int force) {$/;"	f	file:
+mpc_undefined	mpc.c	/^static mpc_parser_t *mpc_undefined(void) {$/;"	f	file:
+mpc_underscore	mpc.c	/^mpc_parser_t *mpc_underscore(void) { return mpc_expect(mpc_char('_'), "underscore"); }$/;"	f
+mpc_upper	mpc.c	/^mpc_parser_t *mpc_upper(void) { return mpc_expect(mpc_oneof("ABCDEFGHIJKLMNOPQRSTUVWXYZ"), "uppercase letter"); }$/;"	f
+mpc_val_t	mpc.h	/^typedef void mpc_val_t;$/;"	t
+mpc_whitespace	mpc.c	/^mpc_parser_t *mpc_whitespace(void) { return mpc_expect(mpc_oneof(" \\f\\n\\r\\t\\v"), "whitespace"); }$/;"	f
+mpc_whitespaces	mpc.c	/^mpc_parser_t *mpc_whitespaces(void) { return mpc_expect(mpc_many(mpcf_strfold, mpc_whitespace()), "spaces"); }$/;"	f
+mpc_whole	mpc.c	/^mpc_parser_t *mpc_whole(mpc_parser_t *a, mpc_dtor_t da) { return mpc_and(3, mpcf_snd, mpc_soi(), a, mpc_eoi(), mpcf_dtor_null, da); }$/;"	f
+mpca_add_tag	mpc.c	/^mpc_parser_t *mpca_add_tag(mpc_parser_t *a, const char *t) {$/;"	f
+mpca_and	mpc.c	/^mpc_parser_t *mpca_and(int n, ...) {$/;"	f
+mpca_count	mpc.c	/^mpc_parser_t *mpca_count(int n, mpc_parser_t *a) { return mpc_count(n, mpcf_fold_ast, a, (mpc_dtor_t)mpc_ast_delete); }$/;"	f
+mpca_grammar	mpc.c	/^mpc_parser_t *mpca_grammar(int flags, const char *grammar, ...) {$/;"	f
+mpca_grammar_find_parser	mpc.c	/^static mpc_parser_t *mpca_grammar_find_parser(char *x, mpca_grammar_st_t *st) {$/;"	f	file:
+mpca_grammar_st	mpc.c	/^mpc_parser_t *mpca_grammar_st(const char *grammar, mpca_grammar_st_t *st) {$/;"	f
+mpca_grammar_st_t	mpc.c	/^} mpca_grammar_st_t;$/;"	t	typeref:struct:__anon24	file:
+mpca_lang	mpc.c	/^mpc_err_t *mpca_lang(int flags, const char *language, ...) {$/;"	f
+mpca_lang_contents	mpc.c	/^mpc_err_t *mpca_lang_contents(int flags, const char *filename, ...) {$/;"	f
+mpca_lang_file	mpc.c	/^mpc_err_t *mpca_lang_file(int flags, FILE *f, ...) {$/;"	f
+mpca_lang_pipe	mpc.c	/^mpc_err_t *mpca_lang_pipe(int flags, FILE *p, ...) {$/;"	f
+mpca_lang_st	mpc.c	/^static mpc_err_t *mpca_lang_st(mpc_input_t *i, mpca_grammar_st_t *st) {$/;"	f	file:
+mpca_many	mpc.c	/^mpc_parser_t *mpca_many(mpc_parser_t *a) { return mpc_many(mpcf_fold_ast, a); }$/;"	f
+mpca_many1	mpc.c	/^mpc_parser_t *mpca_many1(mpc_parser_t *a) { return mpc_many1(mpcf_fold_ast, a); }$/;"	f
+mpca_maybe	mpc.c	/^mpc_parser_t *mpca_maybe(mpc_parser_t *a) { return mpc_maybe(a); }$/;"	f
+mpca_not	mpc.c	/^mpc_parser_t *mpca_not(mpc_parser_t *a) { return mpc_not(a, (mpc_dtor_t)mpc_ast_delete); }$/;"	f
+mpca_or	mpc.c	/^mpc_parser_t *mpca_or(int n, ...) {$/;"	f
+mpca_root	mpc.c	/^mpc_parser_t *mpca_root(mpc_parser_t *a) {$/;"	f
+mpca_state	mpc.c	/^mpc_parser_t *mpca_state(mpc_parser_t *a) {$/;"	f
+mpca_stmt_afold	mpc.c	/^static mpc_val_t *mpca_stmt_afold(int n, mpc_val_t **xs) {$/;"	f	file:
+mpca_stmt_fold	mpc.c	/^static mpc_val_t *mpca_stmt_fold(int n, mpc_val_t **xs) {$/;"	f	file:
+mpca_stmt_list_apply_to	mpc.c	/^static mpc_val_t *mpca_stmt_list_apply_to(mpc_val_t *x, void *s) {$/;"	f	file:
+mpca_stmt_list_delete	mpc.c	/^static void mpca_stmt_list_delete(mpc_val_t *x) {$/;"	f	file:
+mpca_stmt_t	mpc.c	/^} mpca_stmt_t;$/;"	t	typeref:struct:__anon25	file:
+mpca_tag	mpc.c	/^mpc_parser_t *mpca_tag(mpc_parser_t *a, const char *t) {$/;"	f
+mpca_total	mpc.c	/^mpc_parser_t *mpca_total(mpc_parser_t *a) { return mpc_total(a, (mpc_dtor_t)mpc_ast_delete); }$/;"	f
+mpcaf_grammar_and	mpc.c	/^static mpc_val_t *mpcaf_grammar_and(int n, mpc_val_t **xs) {$/;"	f	file:
+mpcaf_grammar_char	mpc.c	/^static mpc_val_t *mpcaf_grammar_char(mpc_val_t *x, void *s) {$/;"	f	file:
+mpcaf_grammar_id	mpc.c	/^static mpc_val_t *mpcaf_grammar_id(mpc_val_t *x, void *s) {$/;"	f	file:
+mpcaf_grammar_or	mpc.c	/^static mpc_val_t *mpcaf_grammar_or(int n, mpc_val_t **xs) {$/;"	f	file:
+mpcaf_grammar_regex	mpc.c	/^static mpc_val_t *mpcaf_grammar_regex(mpc_val_t *x, void *s) {$/;"	f	file:
+mpcaf_grammar_repeat	mpc.c	/^static mpc_val_t *mpcaf_grammar_repeat(int n, mpc_val_t **xs) { $/;"	f	file:
+mpcaf_grammar_string	mpc.c	/^static mpc_val_t *mpcaf_grammar_string(mpc_val_t *x, void *s) {$/;"	f	file:
+mpcf_ctor_null	mpc.c	/^mpc_val_t *mpcf_ctor_null(void) { return NULL; }$/;"	f
+mpcf_ctor_str	mpc.c	/^mpc_val_t *mpcf_ctor_str(void) { return calloc(1, 1); }$/;"	f
+mpcf_dtor_null	mpc.c	/^void mpcf_dtor_null(mpc_val_t *x) { (void) x; return; }$/;"	f
+mpcf_escape	mpc.c	/^mpc_val_t *mpcf_escape(mpc_val_t *x) {$/;"	f
+mpcf_escape_char_raw	mpc.c	/^mpc_val_t *mpcf_escape_char_raw(mpc_val_t *x) {$/;"	f
+mpcf_escape_new	mpc.c	/^static mpc_val_t *mpcf_escape_new(mpc_val_t *x, const char *input, const char **output) {$/;"	f	file:
+mpcf_escape_regex	mpc.c	/^mpc_val_t *mpcf_escape_regex(mpc_val_t *x) {$/;"	f
+mpcf_escape_string_raw	mpc.c	/^mpc_val_t *mpcf_escape_string_raw(mpc_val_t *x) {$/;"	f
+mpcf_float	mpc.c	/^mpc_val_t *mpcf_float(mpc_val_t *x) {$/;"	f
+mpcf_fold_ast	mpc.c	/^mpc_val_t *mpcf_fold_ast(int n, mpc_val_t **xs) {$/;"	f
+mpcf_free	mpc.c	/^mpc_val_t *mpcf_free(mpc_val_t *x) { free(x); return NULL; }$/;"	f
+mpcf_fst	mpc.c	/^mpc_val_t *mpcf_fst(int n, mpc_val_t **xs) { (void) n; return xs[0]; }$/;"	f
+mpcf_fst_free	mpc.c	/^mpc_val_t *mpcf_fst_free(int n, mpc_val_t **xs) { return mpcf_nth_free(n, xs, 0); }$/;"	f
+mpcf_hex	mpc.c	/^mpc_val_t *mpcf_hex(mpc_val_t *x) {$/;"	f
+mpcf_input_free	mpc.c	/^static mpc_val_t *mpcf_input_free(mpc_input_t *i, mpc_val_t *x) {$/;"	f	file:
+mpcf_input_fst_free	mpc.c	/^static mpc_val_t *mpcf_input_fst_free(mpc_input_t *i, int n, mpc_val_t **xs) { return mpcf_input_nth_free(i, n, xs, 0); }$/;"	f	file:
+mpcf_input_nth_free	mpc.c	/^static mpc_val_t *mpcf_input_nth_free(mpc_input_t *i, int n, mpc_val_t **xs, int x) {$/;"	f	file:
+mpcf_input_snd_free	mpc.c	/^static mpc_val_t *mpcf_input_snd_free(mpc_input_t *i, int n, mpc_val_t **xs) { return mpcf_input_nth_free(i, n, xs, 1); }$/;"	f	file:
+mpcf_input_state_ast	mpc.c	/^static mpc_val_t *mpcf_input_state_ast(mpc_input_t *i, int n, mpc_val_t **xs) {$/;"	f	file:
+mpcf_input_str_ast	mpc.c	/^static mpc_val_t *mpcf_input_str_ast(mpc_input_t *i, mpc_val_t *c) {$/;"	f	file:
+mpcf_input_strfold	mpc.c	/^static mpc_val_t *mpcf_input_strfold(mpc_input_t *i, int n, mpc_val_t **xs) {$/;"	f	file:
+mpcf_input_trd_free	mpc.c	/^static mpc_val_t *mpcf_input_trd_free(mpc_input_t *i, int n, mpc_val_t **xs) { return mpcf_input_nth_free(i, n, xs, 2); }$/;"	f	file:
+mpcf_int	mpc.c	/^mpc_val_t *mpcf_int(mpc_val_t *x) {$/;"	f
+mpcf_maths	mpc.c	/^mpc_val_t *mpcf_maths(int n, mpc_val_t **xs) {$/;"	f
+mpcf_nth_free	mpc.c	/^static mpc_val_t *mpcf_nth_free(int n, mpc_val_t **xs, int x) {$/;"	f	file:
+mpcf_null	mpc.c	/^mpc_val_t *mpcf_null(int n, mpc_val_t** xs) { (void) n; (void) xs; return NULL; }$/;"	f
+mpcf_oct	mpc.c	/^mpc_val_t *mpcf_oct(mpc_val_t *x) {$/;"	f
+mpcf_re_and	mpc.c	/^static mpc_val_t *mpcf_re_and(int n, mpc_val_t **xs) {$/;"	f	file:
+mpcf_re_escape	mpc.c	/^static mpc_val_t *mpcf_re_escape(mpc_val_t *x) {$/;"	f	file:
+mpcf_re_or	mpc.c	/^static mpc_val_t *mpcf_re_or(int n, mpc_val_t **xs) {$/;"	f	file:
+mpcf_re_range	mpc.c	/^static mpc_val_t *mpcf_re_range(mpc_val_t *x) {$/;"	f	file:
+mpcf_re_repeat	mpc.c	/^static mpc_val_t *mpcf_re_repeat(int n, mpc_val_t **xs) {$/;"	f	file:
+mpcf_snd	mpc.c	/^mpc_val_t *mpcf_snd(int n, mpc_val_t **xs) { (void) n; return xs[1]; }$/;"	f
+mpcf_snd_free	mpc.c	/^mpc_val_t *mpcf_snd_free(int n, mpc_val_t **xs) { return mpcf_nth_free(n, xs, 1); }$/;"	f
+mpcf_state_ast	mpc.c	/^mpc_val_t *mpcf_state_ast(int n, mpc_val_t **xs) {$/;"	f
+mpcf_str_ast	mpc.c	/^mpc_val_t *mpcf_str_ast(mpc_val_t *c) {$/;"	f
+mpcf_strfold	mpc.c	/^mpc_val_t *mpcf_strfold(int n, mpc_val_t **xs) {$/;"	f
+mpcf_strtrim	mpc.c	/^mpc_val_t *mpcf_strtrim(mpc_val_t *x) {$/;"	f
+mpcf_strtriml	mpc.c	/^mpc_val_t *mpcf_strtriml(mpc_val_t *x) {$/;"	f
+mpcf_strtrimr	mpc.c	/^mpc_val_t *mpcf_strtrimr(mpc_val_t *x) {$/;"	f
+mpcf_trd	mpc.c	/^mpc_val_t *mpcf_trd(int n, mpc_val_t **xs) { (void) n; return xs[2]; }$/;"	f
+mpcf_trd_free	mpc.c	/^mpc_val_t *mpcf_trd_free(int n, mpc_val_t **xs) { return mpcf_nth_free(n, xs, 2); }$/;"	f
+mpcf_unescape	mpc.c	/^mpc_val_t *mpcf_unescape(mpc_val_t *x) {$/;"	f
+mpcf_unescape_char_raw	mpc.c	/^mpc_val_t *mpcf_unescape_char_raw(mpc_val_t *x) {$/;"	f
+mpcf_unescape_new	mpc.c	/^static mpc_val_t *mpcf_unescape_new(mpc_val_t *x, const char *input, const char **output) {$/;"	f	file:
+mpcf_unescape_regex	mpc.c	/^mpc_val_t *mpcf_unescape_regex(mpc_val_t *x) {$/;"	f
+mpcf_unescape_string_raw	mpc.c	/^mpc_val_t *mpcf_unescape_string_raw(mpc_val_t *x) {$/;"	f
+n	mpc.c	/^typedef struct { int n; mpc_fold_t f; mpc_parser_t **xs; mpc_dtor_t *dxs;  } mpc_pdata_and_t;$/;"	m	struct:__anon21	file:
+n	mpc.c	/^typedef struct { int n; mpc_fold_t f; mpc_parser_t *x; mpc_dtor_t dx; } mpc_pdata_repeat_t;$/;"	m	struct:__anon19	file:
+n	mpc.c	/^typedef struct { int n; mpc_parser_t **xs; } mpc_pdata_or_t;$/;"	m	struct:__anon20	file:
+name	mpc.c	/^  char *name;$/;"	m	struct:__anon25	file:
+name	mpc.c	/^  char *name;$/;"	m	struct:mpc_parser_t	file:
+name	tests/ptest.c	/^  char name[MAX_NAME];$/;"	m	struct:__anon35	file:
+not	mpc.c	/^  mpc_pdata_not_t not;$/;"	m	union:__anon22	file:
+num_assert_fails	tests/ptest.c	/^static int num_assert_fails  = 0;$/;"	v	file:
+num_assert_passes	tests/ptest.c	/^static int num_assert_passes = 0;$/;"	v	file:
+num_asserts	tests/ptest.c	/^static int num_asserts = 0;$/;"	v	file:
+num_suites	tests/ptest.c	/^static int num_suites = 0;$/;"	v	file:
+num_suites_fails	tests/ptest.c	/^static int num_suites_fails  = 0;$/;"	v	file:
+num_suites_passes	tests/ptest.c	/^static int num_suites_passes = 0;$/;"	v	file:
+num_tests	tests/ptest.c	/^static int num_tests = 0;$/;"	v	file:
+num_tests_fails	tests/ptest.c	/^static int num_tests_fails  = 0;$/;"	v	file:
+num_tests_passes	tests/ptest.c	/^static int num_tests_passes = 0;$/;"	v	file:
+or	mpc.c	/^  mpc_pdata_or_t or;$/;"	m	union:__anon22	file:
+order	mpc.h	/^  mpc_ast_trav_order_t   order;$/;"	m	struct:mpc_ast_trav_t
+output	mpc.h	/^  mpc_val_t *output;$/;"	m	union:__anon28
+parent	mpc.h	/^  struct mpc_ast_trav_t *parent;$/;"	m	struct:mpc_ast_trav_t	typeref:struct:mpc_ast_trav_t::mpc_ast_trav_t
+parsers	mpc.c	/^  mpc_parser_t **parsers;$/;"	m	struct:__anon24	file:
+parsers_num	mpc.c	/^  int parsers_num;$/;"	m	struct:__anon24	file:
+pos	mpc.h	/^  long pos;$/;"	m	struct:__anon26
+predict	mpc.c	/^  mpc_pdata_predict_t predict;$/;"	m	union:__anon22	file:
+pt_add_suite	tests/ptest.c	/^void pt_add_suite(void (*func)(void)) {$/;"	f
+pt_add_test	tests/ptest.c	/^void pt_add_test(void (*func)(void), const char* name, const char* suite) {$/;"	f
+pt_assert_run	tests/ptest.c	/^void pt_assert_run(int result, const char* expr, const char* file, int line) {$/;"	f
+pt_color	tests/ptest.c	/^static void pt_color(int color) {  $/;"	f	file:
+pt_color	tests/ptest.c	/^static void pt_color(int color) {$/;"	f	file:
+pt_run	tests/ptest.c	/^int pt_run(void) {$/;"	f
+pt_title_case	tests/ptest.c	/^static void pt_title_case(char* output, const char* input) {$/;"	f	file:
+ptest_h	tests/ptest.h	2;"	d
+ptest_signal	tests/ptest.c	/^static void ptest_signal(int sig) {$/;"	f	file:
+range	mpc.c	/^  mpc_pdata_range_t range;$/;"	m	union:__anon22	file:
+readline	main.c	/^char* readline(char* prompt) {$/;"	f
+recieved	mpc.h	/^  char recieved;$/;"	m	struct:__anon27
+regex_test_fail	tests/regex.c	/^int regex_test_fail(mpc_parser_t *p, const char* value, const char* match) {$/;"	f
+regex_test_pass	tests/regex.c	/^int regex_test_pass(mpc_parser_t *p, const char* value, const char* match) {$/;"	f
+repeat	mpc.c	/^  mpc_pdata_repeat_t repeat;$/;"	m	union:__anon22	file:
+retained	mpc.c	/^  char retained;$/;"	m	struct:mpc_parser_t	file:
+row	mpc.h	/^  long row;$/;"	m	struct:__anon26
+satisfy	mpc.c	/^  mpc_pdata_satisfy_t satisfy;$/;"	m	union:__anon22	file:
+single	mpc.c	/^  mpc_pdata_single_t single;$/;"	m	union:__anon22	file:
+start	tests/ptest.c	/^static clock_t start, end;$/;"	v	file:
+state	mpc.c	/^  mpc_state_t state;$/;"	m	struct:__anon5	file:
+state	mpc.h	/^  mpc_state_t state;$/;"	m	struct:__anon27
+state	mpc.h	/^  mpc_state_t state;$/;"	m	struct:mpc_ast_t
+std	makefile	/^	gcc -std=c99 -Wall main.c mpc.c -ledit -o nn$/;"	m
+streq	tests/core.c	/^static int streq(const void* x, const void* y) { return (strcmp(x, y) == 0); }$/;"	f	file:
+string	mpc.c	/^  char *string;$/;"	m	struct:__anon5	file:
+string	mpc.c	/^  mpc_pdata_string_t string;$/;"	m	union:__anon22	file:
+string_eq	tests/regex.c	/^static int string_eq(const void* x, const void* y) { return (strcmp(x, y) == 0); }$/;"	f	file:
+string_print	tests/regex.c	/^static void string_print(const void* x) { printf("'%s'", (char*)x); }$/;"	f	file:
+strprint	tests/core.c	/^static void strprint(const void* x) { printf("'%s'", (char*)x); }$/;"	f	file:
+suite	tests/ptest.c	/^  char suite[MAX_NAME];$/;"	m	struct:__anon35	file:
+suite_core	tests/core.c	/^void suite_core(void) {$/;"	f
+suite_grammar	tests/grammar.c	/^void suite_grammar(void) {$/;"	f
+suite_passing	tests/ptest.c	/^static int suite_passing = 0;$/;"	v	file:
+suite_regex	tests/regex.c	/^void suite_regex(void) {$/;"	f
+suppress	mpc.c	/^  int suppress;$/;"	m	struct:__anon5	file:
+tag	mpc.h	/^  char *tag;$/;"	m	struct:mpc_ast_t
+test_copy	tests/core.c	/^void test_copy(void) {$/;"	f
+test_doge	tests/grammar.c	/^void test_doge(void) {$/;"	f
+test_grammar	tests/grammar.c	/^void test_grammar(void) {$/;"	f
+test_ident	tests/core.c	/^void test_ident(void) {$/;"	f
+test_language	tests/grammar.c	/^void test_language(void) {$/;"	f
+test_language_file	tests/grammar.c	/^void test_language_file(void) {$/;"	f
+test_maths	tests/core.c	/^void test_maths(void) {$/;"	f
+test_partial	tests/grammar.c	/^void test_partial(void) {$/;"	f
+test_passing	tests/ptest.c	/^static int test_passing = 0;$/;"	v	file:
+test_qscript	tests/grammar.c	/^void test_qscript(void) {$/;"	f
+test_regex_basic	tests/regex.c	/^void test_regex_basic(void) {$/;"	f
+test_regex_boundary	tests/regex.c	/^void test_regex_boundary(void) {$/;"	f
+test_regex_lisp_comment	tests/regex.c	/^void test_regex_lisp_comment(void) {$/;"	f
+test_regex_range	tests/regex.c	/^void test_regex_range(void) {$/;"	f
+test_regex_string	tests/regex.c	/^void test_regex_string(void) {$/;"	f
+test_repeat	tests/core.c	/^void test_repeat(void) {$/;"	f
+test_strip	tests/core.c	/^void test_strip(void) {$/;"	f
+test_t	tests/ptest.c	/^} test_t;$/;"	t	typeref:struct:__anon35	file:
+tests	tests/ptest.c	/^static test_t tests[MAX_TESTS];$/;"	v	file:
+type	mpc.c	/^  char type;$/;"	m	struct:mpc_parser_t	file:
+type	mpc.c	/^  int type;$/;"	m	struct:__anon5	file:
+va	mpc.c	/^  va_list *va;$/;"	m	struct:__anon24	file:
+x	mpc.c	/^typedef struct { char *x; } mpc_pdata_string_t;$/;"	m	struct:__anon14	file:
+x	mpc.c	/^typedef struct { char x; char y; } mpc_pdata_range_t;$/;"	m	struct:__anon12	file:
+x	mpc.c	/^typedef struct { char x; } mpc_pdata_single_t;$/;"	m	struct:__anon11	file:
+x	mpc.c	/^typedef struct { int n; mpc_fold_t f; mpc_parser_t *x; mpc_dtor_t dx; } mpc_pdata_repeat_t;$/;"	m	struct:__anon19	file:
+x	mpc.c	/^typedef struct { mpc_ctor_t lf; void *x; } mpc_pdata_lift_t;$/;"	m	struct:__anon8	file:
+x	mpc.c	/^typedef struct { mpc_parser_t *x; char *m; } mpc_pdata_expect_t;$/;"	m	struct:__anon9	file:
+x	mpc.c	/^typedef struct { mpc_parser_t *x; mpc_apply_t f; } mpc_pdata_apply_t;$/;"	m	struct:__anon15	file:
+x	mpc.c	/^typedef struct { mpc_parser_t *x; mpc_apply_to_t f; void *d; } mpc_pdata_apply_to_t;$/;"	m	struct:__anon16	file:
+x	mpc.c	/^typedef struct { mpc_parser_t *x; mpc_dtor_t dx; mpc_ctor_t lf; } mpc_pdata_not_t;$/;"	m	struct:__anon18	file:
+x	mpc.c	/^typedef struct { mpc_parser_t *x; } mpc_pdata_predict_t;$/;"	m	struct:__anon17	file:
+xs	mpc.c	/^typedef struct { int n; mpc_fold_t f; mpc_parser_t **xs; mpc_dtor_t *dxs;  } mpc_pdata_and_t;$/;"	m	struct:__anon21	file:
+xs	mpc.c	/^typedef struct { int n; mpc_parser_t **xs; } mpc_pdata_or_t;$/;"	m	struct:__anon20	file:
+y	mpc.c	/^typedef struct { char x; char y; } mpc_pdata_range_t;$/;"	m	struct:__anon12	file:
